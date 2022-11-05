@@ -4,7 +4,9 @@
 let arrNumber = []
 function getRandomInteger(min,max) {
 	return Math.floor(Math.random() * (max - min + 1) ) + min;
-}  
+}
+
+
 for(let i = 1; i <= 5; i++){
      randomNumber = getRandomInteger(1,50)
     arrNumber.push(randomNumber)
